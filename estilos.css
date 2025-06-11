@@ -1,0 +1,191 @@
+body {
+    background: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    background-color: lightpink !important;
+}
+
+.navbar .nav-link,
+.navbar .navbar-brand {
+    color: black !important;
+    transition: all 0.3s ease;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+}
+
+.navbar .nav-link:hover,
+.navbar .navbar-brand:hover {
+    color: white !important;
+    background-color: rgb(255, 170, 180) !important;
+}
+
+.navbar .nav-link:active,
+.navbar .nav-link:focus,
+.navbar .navbar-brand:active,
+.navbar .navbar-brand:focus {
+    color: white !important;
+    background-color: rgb(255, 150, 170) !important;
+    outline: none !important;
+    box-shadow: 0 0 0 0.25rem rgba(255, 182, 200, 0.5) !important;
+}
+
+.navbar .nav-link.active {
+    color: white !important;
+    background-color: rgb(255, 150, 170) !important;
+    border-radius: 0.25rem;
+}
+
+.img-fluid {
+    filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.1));
+}
+
+section h2 {
+    font-size: 3rem; 
+    font-weight: bold;
+    color: #b22c5e;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.5rem; 
+    position: relative;
+    display: inline-block;
+}
+
+section h2::after {
+    content: '';
+    display: block;
+    width: 60%;
+    height: 4px;
+    background-color: lightpink;
+    margin: 8px auto 0;
+    border-radius: 2px;
+}
+
+.lead {
+    font-size: 1.25rem;
+    color: #555;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#quienes-somos .col {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    text-align: justify; 
+    padding: 1.5rem;
+    background-color: #fff9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+#como-ayudar .card-body i {
+    font-size: 4rem !important;
+    margin-bottom: 1.5rem !important;
+    color: lightpink;
+    transition: transform 0.3s ease;
+}
+
+#como-ayudar .card:hover .card-body i {
+    transform: scale(1.1);
+}
+
+#como-ayudar .card-title {
+    font-weight: bold;
+    color: #b22c5e;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+
+#adopciones-section .card {
+    transition: all 0.3s ease;
+}
+
+#adopciones-section .card:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15) !important;
+    transform: translateY(-5px);
+}
+
+.btn-primary {
+    background-color: lightpink !important; 
+    border-color: lightpink !important;     
+    color: black !important;                
+}
+
+.btn-primary:hover {
+    background-color: rgb(255, 182, 200) !important; 
+    border-color: rgb(255, 182, 200) !important;     
+    color: white !important;                        
+}
+
+.btn-primary:active,
+.btn-primary:focus {
+    background-color: rgb(255, 150, 170) !important; 
+    border-color: rgb(255, 150, 170) !important;     
+    color: white !important;                        
+    box-shadow: 0 0 0 0.25rem rgba(255, 182, 200, 0.5) !important;
+}
+
+.form-label {
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 0.5rem;
+}
+
+.form-control:focus {
+    border-color: lightpink !important;
+    box-shadow: 0 0 0 0.25rem rgba(255, 182, 200, 0.25) !important;
+}
+
+#contacto-section .embed-responsive {
+    height: 400px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+footer {
+    background-color: lightpink !important;
+    color: black; 
+}
+
+
+.footer-link {
+    color: black !important; 
+    text-decoration: none; 
+    transition: all 0.3s ease;
+    display: inline-block;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+}
+
+.footer-link:hover {
+    color: white !important;
+    background-color: rgb(255, 170, 180) !important;
+    transform: translateY(-2px);
+}
+
+.footer-link:active,
+.footer-link:focus {
+    color: white !important;
+    background-color: rgb(255, 150, 170) !important;
+    outline: none !important;
+    box-shadow: 0 0 0 0.25rem rgba(255, 182, 200, 0.5) !important;
+    transform: translateY(0);
+}
+
+footer p {
+    color: black !important;
+    font-size: 0.9rem;
+    opacity: 0.8;
+}
