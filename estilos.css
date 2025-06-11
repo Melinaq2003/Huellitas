@@ -49,12 +49,12 @@ html {
 
 section h2 {
     font-size: 3rem; 
-    font-weight: bold;
+    font-weight: 700;
     color: #b22c5e;
     margin-bottom: 1.5rem;
     padding-bottom: 0.5rem; 
     position: relative;
-    display: inline-block;
+    text-align: center;
 }
 
 section h2::after {
